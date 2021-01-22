@@ -7,7 +7,8 @@ const store = configureStore({
     reducer: {
         contacts:contactsReducer,
     },
-    devTools:process.env.NODE_ENV==='development',
+    // devTools:process.env.NODE_ENV==='development',
+    devTools: true,
 })
 
 // const rootReducer = combineReducers({
